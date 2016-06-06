@@ -1,0 +1,27 @@
+{
+  "name": "noflo-runtime-iot",
+  "version": "0.1.0",
+  "description": "NoFlo Node.js runtime with libraries for the IoT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/.bin/noflo-nodejs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "noflo",
+    "noflo-runtime",
+    "iot"
+  ],
+  "author": "razueroh",
+  "license": "MIT",
+  "dependencies": {
+    "noflo": "^0.7.4",
+    "noflo-coap": "^0.2.0",
+    "noflo-core": "^0.1.14",
+    "noflo-http": "^0.1.2",
+    "noflo-nodejs": "^0.7.0",
+    "noflo-objects": "^0.1.12",
+    "noflo-websocket": "^0.1.3"
+  }
+}
+
